@@ -1,0 +1,15 @@
+=====================================================
+            LASER SECURITY CIRCUIT WIRING
+=====================================================
+
+1. LDR SENSING CIRCUIT:
+   +5V ---> [LDR Photocell] ---> Node A0 ---> [10kΩ Resistor] ---> GND
+
+2. ARDUINO PIN CONNECTIONS:
+   - Analog Pin A0  : Connected between LDR and 10kΩ resistor
+   - Digital Pin 7  : NE555 Alarm Trigger / Reset Pin
+   - Digital Pin 8  : Piezo Speaker (+) terminal
+   - Digital Pin 9  : Red LED (+) via 220Ω resistor to GND
+   - Digital Pin 10 : Green LED (+) via 220Ω resistor to GND
+   - GND Pin        : Common Ground Rail
+   - 5V Pin         : +5V Power Rail
